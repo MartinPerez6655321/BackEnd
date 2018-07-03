@@ -55,6 +55,10 @@
               </reportSet>
             </reportSets>
           </plugin>
-      </plugins>
-</reporting>
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+              <artifactId>findbugs-maven-plugin</artifactId>
+              <version>3.0.3</version>
+        </plugins>
+     </reporting>
 </project>
